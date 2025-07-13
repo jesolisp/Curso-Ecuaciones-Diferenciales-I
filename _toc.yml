@@ -14,7 +14,7 @@ parts:
 - caption: II. Ecuaciones diferenciales lineales
   chapters:
     - file: docs/ed_lineales
-    - file: docs/pvi_pvf
+#    - file: docs/pvi_pvf
 # - caption: III. Sistemas de ecuaciones diferenciales lineales
 #   numbered: true
 #   chapters:

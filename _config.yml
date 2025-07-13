@@ -77,6 +77,11 @@ sphinx:
       # This is for plotly to work
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    proof_theorem_types:
+      definition:
+        name: "Definición"
+      theorem:
+        name: "Teorema"
 
 # Define the name of the latex output file for PDF builds
 # latex:
