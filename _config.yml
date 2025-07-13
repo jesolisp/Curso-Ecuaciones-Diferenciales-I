@@ -13,6 +13,7 @@ logo: docs/images/ed1.png # A path to the book logo
 exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 # Auto-exclude files not in the toc
 only_build_toc_files: true
+email: jsolisp@unam.mx
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
@@ -47,6 +48,9 @@ html:
   use_issues_button: true
   use_edit_page_button: true
   use_download_button: true
+  toc_title: "Contenido"
+  extra_css:
+    - "_static/custom.css"  # Link your custom CSS file
   # thebe: true
   # google_analytics_id: G-XXXXXXX
 
@@ -56,7 +60,7 @@ sphinx:
     - "IPython.sphinxext.ipython_console_highlighting"
     - sphinx_proof
   config:
-    # html_extra_path: ["CNAME", "robots.txt"]
+    language: es
     html_theme_options:
       use_download_button: true
       repository_url: https://github.com/jesolisp/Curso-Ecuaciones-Diferenciales-I

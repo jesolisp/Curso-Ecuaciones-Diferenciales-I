@@ -7,19 +7,26 @@ parts:
 
 - caption: I. Introducción y ecuaciones diferenciales de primer orden
   chapters:
-    - file: docs/JESP_01_Introduccion_EDO
+    - file: docs/definicion_ed
+    - file: docs/problema_valor_inicial
+    - file: docs/curvas_solucion
+    - file: docs/solucion_odes
 - caption: II. Ecuaciones diferenciales lineales
   chapters:
-    - file: docs/JESP_02_Ecs_Dif_Lin
-- caption: III. Sistemas de ecuaciones diferenciales lineales
-  chapters:
-    - file: docs/JESP_03_Sist_Ecs_Dif_Lin
-- caption: IV. Transformada de Laplace
-  chapters:
-    - file: docs/JESP_04_Transformada_Laplace
-- caption: V. Introducción a las ecuaciones diferenciales en derivadas parciales
-  chapters:
-    - file: docs/JESP_05_Introduccion_EDP
+    - file: docs/ed_lineales
+    - file: docs/pvi_pvf
+# - caption: III. Sistemas de ecuaciones diferenciales lineales
+#   numbered: true
+#   chapters:
+# #     - file: docs/JESP_03_Sist_Ecs_Dif_Lin
+# - caption: IV. Transformada de Laplace
+#   numbered: true
+#   chapters:
+# #     - file: docs/JESP_04_Transformada_Laplace
+# - caption: V. Introducción a las ecuaciones diferenciales en derivadas parciales
+#   numbered: true
+#   chapters:
+#     - file: docs/JESP_05_Introduccion_EDP
 - caption: Referencias
   chapters:
     - file: docs/references

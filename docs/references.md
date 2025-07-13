@@ -1,4 +1,4 @@
-# Referencias
+# Bibliografía
 
 ```{bibliography}
 
