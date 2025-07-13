@@ -90,3 +90,6 @@ parse:
     - amsmath
     - dollarmath
     - html_image
+    - colon_fence
+    - linkify
+    - substitution
