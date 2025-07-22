@@ -23,7 +23,7 @@
  <li> Sistema de control de versiones. </li>
 </ol>
 
-## Temario
+## Temario (adecuación)
 
 | **Unidad** | **Tema** | **Contenido** |
 |:---:|:---:|:---|

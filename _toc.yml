@@ -14,15 +14,20 @@ parts:
 - caption: II. Ecuaciones diferenciales lineales
   chapters:
     - file: docs/ed_lineales
-#    - file: docs/pvi_pvf
-# - caption: III. Sistemas de ecuaciones diferenciales lineales
-#   numbered: true
-#   chapters:
-# #     - file: docs/JESP_03_Sist_Ecs_Dif_Lin
-# - caption: IV. Transformada de Laplace
-#   numbered: true
-#   chapters:
-# #     - file: docs/JESP_04_Transformada_Laplace
+    - file: docs/pvi_pvf
+    - file: docs/ecs_hom_nohom
+    - file: docs/elhom_coef_const
+    - file: docs/var_parametros
+    - file: docs/cauchy_euler
+- caption: III. Sistemas de ecuaciones diferenciales lineales
+  chapters:
+    - file: docs/sistema_ed_lineales
+    - file: docs/matriz_exponencial
+    - file: docs/modelado_ed_po
+- caption: IV. Transformada de Laplace
+  chapters:
+    - file: docs/transformada_Laplace
+    - file: docs/sistema_ecs_Laplace
 # - caption: V. Introducción a las ecuaciones diferenciales en derivadas parciales
 #   numbered: true
 #   chapters:
@@ -30,3 +35,7 @@ parts:
 - caption: Referencias
   chapters:
     - file: docs/references
+- caption: Apéndices
+  chapters:
+    - file: docs/metodo_poshenloh
+    - file: docs/metodo_ruffini

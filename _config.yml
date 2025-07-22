@@ -56,7 +56,6 @@ html:
 
 sphinx:
   extra_extensions:
-    # This is to work around the bug of no syntax highlighting
     - "IPython.sphinxext.ipython_console_highlighting"
     - sphinx_proof
   config:
@@ -74,19 +73,22 @@ sphinx:
         }
     bibtex_reference_style: author_year
     html_js_files:
-      # This is for plotly to work
       - https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js
     mathjax_path: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-    proof_theorem_types:
-      definition:
-        name: "Definición"
-      theorem:
-        name: "Teorema"
+    latex_toplevel_sectioning: 'part'
+
+    # 👇 This must be outside html_theme_options
+    # proof_theorem_types:
+    #   definition:
+    #     name: "Definición"
+    #   theorem:
+    #     name: "Teorema"
+
 
 # Define the name of the latex output file for PDF builds
-# latex:
-#   latex_documents:
-#     targetname: book.tex
+latex:
+  latex_documents:
+    targetname: book.tex
 
 # Add a bibtex file so that we can create citations
 bibtex_bibfiles:
@@ -102,3 +104,8 @@ parse:
     - colon_fence
     - linkify
     - substitution
+    - deflist
+    - replacements
+    - smartquotes
+    - substitution
+    - html_admonition
